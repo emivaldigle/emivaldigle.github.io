@@ -1,0 +1,274 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  padding-right: 7%;
+  padding-left: 7%;
+}
+.social {
+  position: absolute;
+  top: 25px;
+  left: 75%;
+}
+.social-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  
+}
+.content {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.name {
+  font-size: 80px;
+  letter-spacing: 13px;
+}
+.role {
+  font-size: 19px;
+}
+.upper-content {
+  height: 400px;
+  margin-bottom: 50px;
+}
+.middle-content {
+  width: 100%;
+  display: flex;
+}
+.left-box {
+  width: 35%;
+  border-top: 2px solid silver;
+  border-right: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+.right-box {
+  border-top: 2px solid silver;
+  width: 65%;
+  padding-left: 40px;
+  border-bottom: 2px solid silver;
+}
+.details {
+  letter-spacing: 2px;
+}
+.title-content {
+  margin-bottom: 50px;
+}
+.dev {
+  margin-right: 35px;
+}
+.data-box {
+  margin-bottom: 20px;
+}
+.data-box-lang {
+  margin-bottom: 40px;
+  width: 40%;
+}
+.content-box {
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+.skills {
+  margin-top: 80px;
+}
+.skill-text {
+  width: 40%;
+}
+.skill-1 {
+  margin-bottom: 35px;
+  display: flex;
+}
+.star {
+  margin-left: 5px;
+  margin-top: -4px;
+  color: silver;
+}
+.stars > .material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 48;
+}
+
+.languages {
+  margin-top: 80px;
+}
+.lang-1 {
+  display: flex;
+}
+progress {
+  height: 10px;
+  background: silver;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+progress::-moz-progress-bar {
+  background: grey;
+}
+
+progress::-webkit-progress-value {
+  background: grey;
+}
+
+progress::-webkit-progress-bar {
+  background: silver;
+}
+
+.timeline {
+  display: flex;
+}
+.vertical-line {
+  margin-top: 100px;
+  height: 1200px;
+  width: 3px;
+  border-right: 2px solid silver;
+  position: absolute;
+  margin-left: 10px;
+}
+.spot-initial {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: silver;
+  margin-left: -3px;
+  margin-top: 20px;
+}
+
+.spot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: silver;
+  margin-top: 187px;
+  margin-left: -3px;
+}
+.avatar {
+  width: 75px;
+  height: 15px;
+  margin-left: 25px;
+}
+.date-range {
+  margin-left: 25px;
+  font-size: 12px;
+}
+.avatar-entel {
+  width: 75px;
+  height: 18px;
+  margin-left: 25px;
+}
+.avatar-rit {
+  width: 75px;
+  height: 25px;
+  margin-left: 25px;
+  margin-top: -5px;
+}
+.avatar-btsys {
+  width: 100px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: -2px;
+}
+.avatar-mysolutions {
+  width: 75px;
+  height: 20px;
+  margin-left: 25px;
+}
+.text-alt {
+  margin-left: 120px;
+  margin-top: -70px;
+}
+.text-alt-2 {
+  margin-left: 120px;
+  margin-top: -62px;
+}
+.content-initial {
+  margin-top: 90px;
+  margin-bottom: 150px;
+  margin-left: 10px;
+}
+.content-second {
+  margin-bottom: 150px;
+  margin-left: 10px;
+}
+.page {
+  height: 100vh;
+  position: absolute;
+  left: 33%;
+
+}
+
+.title {
+  color: black;
+  position: absolute;
+  font-size: 80px;
+  letter-spacing: 13px;
+  text-align: center;
+}
+
+.bottom-content {
+  margin-top: 70px;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.page {
+  animation: fadeOut 4s ease-in-out forwards;
+}
+
+.title {
+  animation: fadeOut 4s ease-in-out forwards;
+}
+.bottom-title {
+  margin-bottom: 50px;
+}
+
+.section {
+  display: flex;
+}
+.chips-box {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.chips {
+  padding: 5px 25px 5px 25px;
+  border-radius: 25px;
+  font-weight: bolder;
+}
+.chip-section {
+  margin-bottom: 25px;
+}
+.grey {
+  color: #5C5C5C; 
+  background-color: #e4e4e4;
+}
+.grey-2 {
+  color: #575656;  
+  background-color: #e0e0e0;
+}
+.grey-3 {
+  color: #575656;  
+  background-color: #d6d6d6;
+}
+.grey-4 {
+  color: #545252;  
+  background-color: #CCCCCC;
+}
+.grey-5 {
+  color: #4c4b4b;  
+  background-color: #C2C2C2;
+}
+.grey-6 {
+  color: #4c4b4b;  
+  background-color: #B8B8B8;
+}
+.grey-7 {
+  color: #4c4b4b;  
+  background-color: #ADADAD;
+}
+
