@@ -201,6 +201,8 @@ progress::-webkit-progress-bar {
   font-size: 80px;
   letter-spacing: 13px;
   text-align: center;
+    animation: fadeOut 4s ease-in-out forwards;
+
 }
 
 .bottom-content {
@@ -217,10 +219,6 @@ progress::-webkit-progress-bar {
 }
 
 .page {
-  animation: fadeOut 4s ease-in-out forwards;
-}
-
-.title {
   animation: fadeOut 4s ease-in-out forwards;
 }
 .bottom-title {
