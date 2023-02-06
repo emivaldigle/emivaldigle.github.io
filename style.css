@@ -33,7 +33,6 @@ body {
   margin-bottom: 50px;
 }
 .middle-content {
-  width: 100%;
   display: flex;
 }
 .left-box {
@@ -201,8 +200,7 @@ progress::-webkit-progress-bar {
   font-size: 80px;
   letter-spacing: 13px;
   text-align: center;
-    animation: fadeOut 4s ease-in-out forwards;
-
+  animation: fadeOut 4s ease-in-out forwards;
 }
 
 .bottom-content {
@@ -270,3 +268,70 @@ progress::-webkit-progress-bar {
   background-color: #ADADAD;
 }
 
+@media only screen and (max-width: 900px) {
+  .page {
+    margin-left: -10%;
+  }
+  .page .title {
+    font-size: 30px;
+  }
+  .name {
+  font-size: 40px;
+  letter-spacing: 6px;
+  }
+  .role {
+  font-size: 10px;
+  }
+  .social-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+
+  }
+  .middle-content {
+    display: inline !important;
+  }
+  .left-box {
+    width: 100% !important;
+    border: none;
+  }
+  .right-box {
+    width: 100% !important;
+    margin-left: -11%;
+    border: none;
+  }
+  .section {
+    display: inline !important;
+  }
+  
+  .chips-box {
+  margin-top: 20px;
+    margin-bottom: 70px;
+}
+.chips {
+  padding: 2.5px 12.5px 2.5px 12.5px;
+  border-radius: 12.5px;
+  font-weight: bolder;
+  font-size: 10px;
+}
+  .chip-section {
+    margin-left: -16%;
+    display: inline-block !important;
+  }
+  .content-second {
+    display: inline-block;
+  }
+  .text-alt {
+    font-size: 10px;
+    margin-bottom: 5%;
+  }
+  .text-alt-2 {
+    font-size: 10px;
+    margin-top: -33%;
+   
+  }
+  .vertical-line {
+    height: 1000px;
+  }
+
+}
